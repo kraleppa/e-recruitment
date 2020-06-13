@@ -86,7 +86,7 @@ Aby uruchomić projekt wystarczy odpowiednio skonfigurować połączenie ze stwo
 
 
 
-## Kontrybutorzy :poland: :onion:
+## Kontrybutorzy :onion:
 <table>
   <tr>
     <td align="center"><a href="https://github.com/szarbartosz"><img src="https://avatars3.githubusercontent.com/u/48298481?s=400&u=f61ccb0f734a51dc2a1115e6478839be62cb2216&v=4" width="100px;" alt=""/><br /><sub><b>Bartosz Szar</b></sub></a><br /></td>
