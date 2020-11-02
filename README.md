@@ -1,4 +1,4 @@
-# eRekrutacja
+# e-recruitment
 
 [![Maven badge](https://img.shields.io/badge/Maven-4.0.0-red)](https://maven.apache.org)
 [![Lombok badge](https://img.shields.io/badge/Project_Lombok-1.18.12-green)](https://mvnrepository.com/artifact/org.projectlombok/lombok)
@@ -7,17 +7,17 @@
 [![Spark badge](https://img.shields.io/badge/Spark-2.5.4-blueviolet)](https://mvnrepository.com/artifact/com.sparkjava/spark-core/2.5.4)
 [![Gson badge](https://img.shields.io/badge/Gson-2.8.0-yellowgreen)](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.0)
 
-## Krótki opis
-Projekt na przedmiot Bazy Danych. Backendowy komponent obsługujący bazę danych PostgreSQL do zarządzania procesem e-rekrutacji na studia I stopnia, zrealizowany w Javie przy użyciu Hibernate.
-## Diagram bazy danych
+## Description
+This project was a part of database classes. The main goal was to create api for e-recruitment process
+## Database diagram
 ![diagram](https://github.com/szarbartosz/eRecruitment/blob/master/diagram.png)
 
-## Struktura projektu
+## Project structure
 ```
   .
-  ├── controller                              # Klasy odpowiadające za REST API
+  ├── controller                              # Rest API classes
   │   ├── AuthenticationController.java
-  │   ├── config                              # Konfiguracja zwracanych JSONów
+  │   ├── config                              # JSON config
   │   │   ├── StandardResponse.java
   │   │   └── Status.java
   │   ├── Controller.java
@@ -26,12 +26,12 @@ Projekt na przedmiot Bazy Danych. Backendowy komponent obsługujący bazę danyc
   │   ├── FieldController.java
   │   ├── RecruitmentController.java
   │   └── StudentController.java
-  ├── dao                                     # Metody odpowiedzialne za komunikację z bazą danych
+  ├── dao                                     # Communication with database
   │   ├── SessionFactoryDecorator.java        
-  │   ├── StudentDao.java                     # Metody po stronie aplikanta
-  │   └── UniversityDao.java                  # Metody po stronie uczelni
+  │   ├── StudentDao.java                     # Candidate methods
+  │   └── UniversityDao.java                  # University methods
   ├── Main.java
-  └── model                                   # Model danych
+  └── model                                   # Model
       ├── Address.java
       ├── Candidate.java
       ├── Exam.java
